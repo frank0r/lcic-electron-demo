@@ -1,0 +1,29 @@
+{
+  "name": "lcic-desktop-demo",
+  "version": "0.1.0",
+  "description": "LCIC general desktop app package",
+  "main": "./lib/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron .",
+    "build-win32": "electron-builder --win --ia32",
+    "build-win": "electron-builder --win ",
+    "build-mac": "electron-builder --mac"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.1.9",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+    "tcic-electron-sdk": "^1.9.0-latest-fix.240126.2128.11"
+  },
+  "volta": {
+    "node": "16.14.2"
+  },
+  "engines": {
+    "node": "16.14.2"
+  }
+}
